@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="paneTwo" prefHeight="600.0" prefWidth="800.0" />
+      <TextArea fx:id="textArea" editable="false" prefHeight="600.0" prefWidth="800.0" text="INSTRUKCJA UŻYTKOWANIA PROGRAMU&#10;===============================&#10;&#10;RYSOWANIE FIGUR&#10;Aby narysować daną figurę, wybierz ją z menu po lewej stronie.&#10;Żeby utworzyć następujące figury, należy wykonać podane niżej kroki.&#10;&#10;1. Koło: przeciągnij myszką po panelu. Punk startowy będzie środkiem koła.&#10;2. Trójkąt: kliknij trzy razy miejsca na panelu, które mają być wierzchołkami trójkąta.&#10;3. Prostokąt: przeciągnij myszką po panelu. Utworzony odcinek będzie przekątką prostokąta.&#10;&#10;EDYCJA FIGUR&#10;W celu edytowania figur, należy wcisnąć przycisk &quot;Edytuj&quot;.&#10;Należy edytować tylko jedną figurę jednocześnie. Kliknij ją&#10;jednokrotnie. Po tej akcji możliwe będzie powiększenie lub pomniejszenie figury scrollem,&#10;przesunięcie jej myszką w inne miejsce panelu, a po otworzeniu menu PPM także jej obrócenie&#10;i zmiana koloru." wrapText="true">
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="FreeMono" size="17.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
